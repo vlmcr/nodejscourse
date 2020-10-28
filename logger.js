@@ -1,17 +1,17 @@
-function log() {
-  console.log.apply({}, Array.from(arguments))
+function log(...args) {
+  console.log(...args)
 }
 
-function debug() {
-  console.log.apply({}, Array.from(arguments))
+function debug(...args) {
+  console.log(...args)
 }
 
-function error() {
-  console.log.apply({}, Array.from(arguments))
+function error(...args) {
+  console.log(...args)
 }
 
-function warn() {
-  console.log.apply({}, Array.from(arguments))
+function warn(...args) {
+  console.log(...args)
 }
 
 module.exports = {
